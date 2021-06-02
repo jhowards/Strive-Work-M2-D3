@@ -20,8 +20,8 @@
         text-align: center;
       }
       .carousel {
-    width:640px;
-    height:360px;
+    max-width:640px;
+    max-height:360px;
         }
     </style>
  
@@ -65,8 +65,8 @@
             <img
               src="https://media.cntraveler.com/photos/57fea9ec8584f8cd20e65f15/16:9/w_1600,c_limit/Aerial-One&OnlyReethiRah-Maldives-CRHotel.jpg"
               alt="FQqi-K1-UP-400x400"
-              class=""
-              style="height:600px;"
+              class="img-fluid"
+              style="max-height:600px;"
             />
           </div>
           <div class="col-lg">
@@ -194,82 +194,6 @@
     </div>
   </div>
 
-  <div class="container-fluid d-sm-none d-md-block">
-    <div class="card mb-3">
-      <img src="https://eu-assets.simpleview-europe.com/bournemouth/imageresizer/?image=%2Fdbimgs%2FKnow-Before-You-Go-Bournemouth-Pier-Spring.jpg&action=FeaturedPagesLargeMediaGal" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Deal of the Day</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-
-  </div>
-<div class="container-fluid mt-5  ">
-    <h1 class="mb-3">Welcome Summer</h1>
-    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 mr-2">
-      <div class="col mb-4 shadow bg-white rounded">
-        <div class="card ">
-            <img src="https://www.austrianblog.com/media/images/paris-city-of-love.original.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-      </div>
-      <div class="col mb-4 shadow bg-white rounded">
-      <div class="card">
-            <img src="https://www.austrianblog.com/media/images/paris-city-of-love.original.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-      </div>
-      <div class="col mb-4 shadow bg-white rounded">
-        <div class="card">
-            <img src="https://www.austrianblog.com/media/images/paris-city-of-love.original.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-      </div>
-      <div class="col mb-4 shadow bg-white rounded">
-        <div class="card">
-            <img src="https://www.austrianblog.com/media/images/paris-city-of-love.original.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-      </div>
-      <div class="col mb-4 shadow bg-white rounded">
-        <div class="card">
-            <img src="https://www.austrianblog.com/media/images/paris-city-of-love.original.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-      </div>
-      <div class="col mb-4 shadow bg-white rounded">
-        <div class="card">
-            <img src="https://www.austrianblog.com/media/images/paris-city-of-love.original.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-      </div>
-    </div>
-  </div>
 
   <div class="container-fluid d-sm-none d-md-block">
     <div class="card mb-3">
@@ -359,7 +283,16 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
- 
+ <div class="container">
+  <p>
+    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Link with href
+    </a>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+      Button with data-target
+    </button>
+  </p>
+
     <!--
  
         EXERCISE: 
